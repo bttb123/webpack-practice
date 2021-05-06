@@ -3,10 +3,10 @@
 ////////////////////////////////////////////////////////
 
 // package.json
-// "build": "webpack --config=webpack.config.js"
+// "build": "webpack --config=webpack.config.base.js"
 
 
-// webpack.config.js
+// webpack.config.base.js
 const path = require('path')
 
 module.exports = {
@@ -23,7 +23,7 @@ module.exports = {
 // clean-webpack-plugin
 ////////////////////////////////////////////////////////
 
-// webpack.config.js
+// webpack.config.base.js
 const path = require('path')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 
@@ -46,7 +46,7 @@ module.exports = {
 
 // move index.html file into the src directory
 
-// webpack.config.js
+// webpack.config.base.js
 const path = require('path')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
